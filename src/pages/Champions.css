@@ -1,0 +1,64 @@
+.champion-list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+  }
+ 
+  .champion {
+
+    margin: 10px; /* Add some margin around each champion element */
+  }
+  .champions{      
+padding: 40px 80px;
+display: flex;
+flex-direction: column;
+
+ }
+ .champs_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+ }
+  .role-filters ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 24px;
+    font-family: sans-serif;
+    border: #fff 1px solid;
+   
+    background-color:  rgb(5, 39, 69);
+    color:#fff;
+  
+
+}
+.role-filters ul li{
+  
+    border-right:1px solid #fff ;
+    padding: 20px;
+    
+}
+.role-filters ul li{
+    background-color: rgba(5, 39, 69, 0.558) ;
+}
+
+.role-filters ul li{
+    padding: 10px;
+    list-style: none;
+}
+.role-filters{
+    display: flex;
+}
+.champs{
+    width: 50%;
+}
+.champ_stats{
+  width: 50%;
+  background-color:  rgb(5, 39, 69);
+  margin: 20px;
+  height: 50%;
+  color: #fff;
+  padding: 40px;
+}
+  

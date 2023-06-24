@@ -1,0 +1,15 @@
+.region{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 35px;
+     background-color: rgba(5, 39, 69, 0.727);
+    padding: 0px 10px;
+    border-bottom: 1px solid black;   
+    color: #ffffff92;
+    text-decoration: none  ;
+}
+.region:hover{
+    background-color: rgba(5, 39, 69, 0.727);
+    
+}

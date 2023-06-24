@@ -1,0 +1,80 @@
+.stats {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+  }
+  
+  .item span {
+    color: #fff;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .item p {
+    font-size: 24px;
+  }
+  
+  .stats p {
+    color: #fff;
+    font-size: 18px;
+    padding: 15px;
+    line-height: 50px;
+  }
+  .counters{
+  display: flex;
+  flex-direction: column;
+  }
+  .counter img{
+    height: 50px;
+    width: 50px;
+  }
+  .counter{
+    color: red;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .positions ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    color: #fff;
+  }
+  
+  .champ_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .positions ul li {
+    border-right: 1px solid #fff;
+    background-color: rgb(13, 7, 72);
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .positions ul li:hover {
+    background-color: rgba(2, 67, 100, 0.757);
+  }
+  
+  .positions ul li.active {
+    background-color: rgba(2, 67, 100, 0.757);
+  }
+  
+  @media screen and (max-width: 800px) {
+    .positions ul {
+      flex-direction: column;
+    }
+  }
+  
